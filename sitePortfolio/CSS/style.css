@@ -1,0 +1,635 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title{
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    margin-left:550px;
+    margin-right:500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    color: #4fbfa8;
+
+}
+#icon{
+    font-size: 26px;
+    margin:12px 50px;
+    color: #4fbfa8;
+}
+.nav{
+    border-bottom: 1px solid #eaeaeb;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;   
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    margin:0 30px;
+    
+}
+.menu a{
+    clear: right;
+    text-decoration: none;
+    color:gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+  label{
+      margin: 0 40px 0 0;
+      font-size: 26px;
+      line-height: 70px;
+      float: right;
+      display: none;
+      width: 26px;
+      
+    }
+  #toggle{
+      display: none;
+  }
+ #cover{
+    background-image: url("../IMG/cover1.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 560px;  
+}
+
+    .nav .menu a:hover{
+        color: rgb(216, 19, 84);
+        height: 70px;
+        width: 70px;
+        font: bold;
+        border-bottom: 2px solid #4fbfa8;
+    }
+
+    /*work*/
+    #work{
+        background-color:whitesmoke;
+        background-size: cover;
+        height: 500px;
+        padding-top: 40px;
+    }
+    #work #windows{
+        display: flex;
+        margin-top: 50px;
+    
+    }
+    #work .button{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: 160px;
+        margin-right: 290px;
+    }
+    #work .button a{
+        border: 2px solid orangered;
+        width: 200px;
+        border-radius: 4px;
+        padding: 10px;
+        color:white;
+        font-style: none;
+        text-decoration: none;
+        margin-top: 40px;
+        background-color:#4fbfa8;
+    }
+    #work .button a:hover{
+        background-color: orangered;
+        color:black;
+        border-color: black;
+        font-style: none;
+    }
+
+    #work #windows #w1{
+        margin-left: 90px;
+        border: 3px solid navy;
+        border-radius: 7px;
+    }
+    #work #windows #w2{
+        margin-left: 90px;
+        border: 3px solid navy;
+        border-radius: 7px;
+    }
+    #work #windows #w3{
+        margin-left: 90px;
+        border: 3px solid navy;
+        border-radius: 7px;
+    }
+    
+    #work #windows img{
+        width: 300px;
+        height: 200px;
+        border-radius: 4px;
+        background-position:center;
+    }
+/*animatoin with cover */
+#cover{
+padding-left: 10%;
+padding-top: 10%;  
+}
+
+#cover h2{
+padding:0;
+margin: 0;
+color:#fff;
+text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+font-size: 60px;
+margin-bottom: 40px;
+}
+
+
+#cover h1{
+    padding:0;
+    margin: 0;
+    color:#fff;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 1);
+    font-size: 60px;
+    margin-bottom: 10px;    
+}
+    #cover a{ 
+          border: 2px solid orangered;
+        width: 200px;
+        border-radius: 4px;
+        padding: 10px;
+        color: white;
+        font-style: none;
+        text-decoration: none;
+        margin-top: 40px;
+    }
+    #cover a:hover{
+        background-color: orangered;
+        color:black;
+        border-color: white;
+        font-style: none;
+    }
+
+    
+#cover h2 span:before{
+    content: '';
+    color:orangered;
+    text-shadow: 0 2px 0 rgba(255, 255, 255, 0.9);
+    animation: animate infinite 15s;
+}
+
+@keyframes animate{
+    0%{
+        content: 'Full Stack Web Developer';
+    }
+    25%{
+        content:'Programmer';
+    }
+    50%{
+        content: 'Software Developer';
+    }
+    75%{
+        content: 'Free Lancer';
+    }
+    100%{
+        content: 'Java Devloper';
+    }
+}
+
+/* ABOUT CODING   */
+#about{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4fbfa8;
+    padding-bottom: 40px;
+}
+h4{
+    text-align: center;
+    color:#4fbfa8;
+}
+#about #proftext p{
+    width: 100%;
+    padding :80px;
+    padding-bottom: 0px;
+}
+#about #profile{
+       padding:80px 50px 0px 200px;
+}
+#about #profile img{
+    height: 400px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    
+}
+
+#about #proftext #icon{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#about #proftext #icon a{
+    font-size: 22px;
+    margin-left: 20px;
+    color: rgb(212, 14, 170);
+    text-decoration: none;
+    border-radius: 3px;
+    width: 50px;
+}
+
+
+#tech{
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right:300px;
+   padding-bottom: 15px;
+    width: 100%;
+    border-radius: 3px;
+    color: rgb(16, 84, 145);
+    background-color: lightcyan;
+}
+#tech h6{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*achivements*/
+#certi{
+
+    height: 500px;
+    background-image:url(../IMG/cover1.jpg);
+    background-size:cover;
+    color:black;
+    opacity: 1;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-right:20px;
+    display: flex;
+    justify-content: space-between;
+   }
+#certi h5{
+      color:white;
+      text-align: center;
+}
+    #certi #protraining #qspider{
+        background-color: blanchedalmond;
+        border-radius: 15px;
+        padding-right: 50px;
+        padding-left: 80px;
+        margin-top: 50px;
+        
+    }
+    #certi #protraining #qspider h6{
+        color: red;
+    }
+    #certi #protraining #qspider p{
+        color: maroon;
+    }
+    
+    #certi #Achivement{
+            background-color: blanchedalmond;
+            border-radius: 15px;
+            margin-top: 40px;
+            padding: 20px 20px;
+            height: 400px;
+    }
+    #certi #Achivement h6{
+        color: red;
+    }
+    #certi #Achivement p{
+        color: maroon;
+    }
+
+    #certi #Achivement #publication img{
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    
+}
+#certi #Achivement #publication #Ecars #paper{
+    display: flex;
+    justify-content: space-between;
+}
+#certi #Achivement #publication #Ecars #paper #anch{
+    padding-top: 80px;
+    padding-right: 130px;
+}
+
+
+
+    #certi #Achivement #publication a{
+     border: 2px solid orangered;
+    width: 200px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left:20px;
+    margin-top:20px;
+    text-align: center;
+    color:white;
+    font-style: none;
+    text-decoration: none;
+    background-color: #4fbfa8;
+    }
+    #certi #Achivement #publication a:hover{
+        background-color: orangered;
+        color:black;
+        border-color: black;
+        font-style: none;
+    }
+    
+    #contact{
+        display: flex;
+        height: 400px;
+        background-image: url(../IMG/black-1072366_1920.jpg);
+      
+    }
+    #contact #address h6{
+        color: white;
+        margin-bottom: 30px;
+    }
+    #contact #address{
+        color:white;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    #contact #form{
+        margin-left: 200px;
+        margin-top: 50px;
+        color: white;
+    }
+    #contact #form h6{
+        color: white    ;
+        margin-left: 50px;
+    }
+    #contact #form input::placeholder{
+        color: white;
+    }
+    #contact #form input{
+        margin: 40px 20px 10px;
+        width: 300px;
+        height: 40px;
+        background: none;
+        border-style: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        color:white;
+    }
+
+    #contact #form button{
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        background-color: orangered;
+        color: navy;
+        font-style: bold;
+        border-radius: 50%;
+        border: 2px solid white;
+        margin-left: 100px;
+        margin-top: 35px;
+        transition: background 2s,transform 0.3s,1s;
+    }
+    #contact #form button:hover{
+        background-color: navy;
+        color: white;
+        border-color: black;
+        transform: rotate(360deg);
+    }
+    
+    
+    
+    #footer {
+        height: 50px;
+        display:flex;
+        background-color: black;
+        color: white;
+    }
+    #footer #icon{
+        margin-left: 600px;
+        font-size: 24px;
+        color: violet;
+    }
+    #footer #icon a{
+        margin-left: 20px;
+        color: violet;
+    }
+    #footer #copy p{
+    margin-left: 25px;
+    margin-top: 10px;
+    }
+    #footer #copy p span{
+        color: orangered;
+    }
+/*text animation*/
+#cover h1 span{
+    color:rgb(58, 161, 141);
+    text-shadow: 0 2px 0 rgba(255, 255, 255, 0.9);
+}
+
+
+@media only screen and (max-width:900px){
+    #cover{
+    padding :0px;
+    padding-top:100px;
+    }
+    }
+    
+    /*about*/
+     
+    /* media query*/
+      @media only screen and (max-width:650px){
+        #icon{margin-left: 100px;
+        }
+        label{
+              display: block;
+              cursor: pointer;
+                
+          }
+          .menu{
+           text-align: center;
+           width: 100%;
+           display: none;
+            
+        }
+        .menu a{
+            display: block;
+            
+            border-bottom: 1px solid #eaeaeb;
+            margin: 0;
+            color:white;
+            }
+    
+            #toggle:checked + .menu{
+                display: block;
+                background-color:#4fbfa8;
+            }
+            #cover a:hover{
+                display: none;
+            }
+          
+            .title{
+                margin-left: 140px;
+            }
+            .title h4{
+                margin-left: 30px;
+            }
+            #about{
+                display:inline-block;
+                columns: 1;
+                
+            }
+            #about #profile{
+                padding-top: 34px;
+                padding-left: 140px;
+                padding-bottom: 20px;
+                height: 150px;
+            }
+           #about #profile img{
+                width: 150px;
+                height: 150px;
+            }
+            #about #proftext p{
+                padding:35px;
+                font-size: 12px;
+                line-height: 26px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                padding-bottom: 0px;
+            }
+            #about #proftext #icon{
+            margin: 10px 60px;
+            }
+
+
+            #work{
+                display: flex;
+                justify-content: space-between;
+            }
+            #work #windows{
+                display: inline-block;
+                columns: 1;
+                border: none;
+            }
+            #work #windows #w1{
+                padding: 10px;
+                margin-right: 0px;
+                border: none;
+            }
+
+            #work #windows #w2{
+                padding: 10px;
+                margin-right: 0px;
+                border: none;
+            }
+            #work #windows #w3{
+                padding: 10px;
+                margin-right: 0px;
+                border: none;
+            }
+            
+            #work #windows img{
+                width: 100px;
+                height: 100px;
+
+            }
+            #work .button{
+                display: inline;
+                columns: 1;
+            }
+            #work .button div {
+                width: 500px;
+                margin-top: 70px;
+                margin-left: 0px;
+            }
+            #tech{
+                padding-top: 3px;
+                padding-left: 5px;
+                padding-right:5px;
+               padding-bottom: 5px;
+               
+            }
+            #certi{
+                display: inline-block;
+                columns:1;
+                width: 100%;
+                height: auto;
+            }    
+            #certi #Achivement #publication #Ecars #paper #anch{
+                padding-top: 45px;
+                padding-right: 10px;
+            }
+            #certi #Achivement #publication img{
+                margin-top: 0px;
+                height: 100px;
+            }
+           #certi #protraining #qspider{
+            margin: 0px;
+            padding: 0px;    
+        }
+            #certi #protraining{
+                padding: 0px;
+            }
+        
+            #contact{
+                display: inline-block;
+                columns: 1;
+                width: 100%;
+            }
+            #contact #form{
+                margin: 0px;
+                margin-left: 20px;
+            } 
+    
+        
+    #contact #address h6{
+        color: white;
+        margin-bottom: 10px;
+    }
+    #contact #address{
+        color:white;
+        margin-top: 5px;
+        margin-left: 70px;
+    }
+
+    #contact #form h6{
+        color: white;
+        margin-left: 0px;
+    }
+    #contact #form input::placeholder{
+        color: white;
+    }
+    #contact #form input{
+        margin: 0px;
+        margin-top: 20px;
+        width: 200px;
+        height: 20px;
+        background: none;
+        border-style: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        color:white;
+    }
+        
+    #footer {
+        height: 100px;
+        display:inline-block;
+        columns: 1;
+        width: 100%;
+    }
+    #footer #icon{
+        margin-left: 10px;
+        font-size: 24px;
+           }
+    #footer #icon a{
+        margin-left: 20px;
+             }
+    #footer #copy p{
+    margin-left: 25px;
+    margin-top: 10px;
+    }
+    
+    
+
+
+
+}
+
+         
